@@ -13,7 +13,7 @@ const userSchema = new mongoose.Schema({
     },
     password:{
         type:String,
-        required:String
+        required:true
     },
     cartData:{
         type:Object,
